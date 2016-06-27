@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Loader from '~/src/loader/Loader.js';
 
 // Top level component to show popular programmes
 class Popular extends Component {
@@ -10,9 +11,9 @@ class Popular extends Component {
         this.loadData();
     }
 
-    // XXXX should the component load the data?
     loadData() {
-
+        let loader = new Loader();
+        loader.loadPopular();
     }
 
     render() {
