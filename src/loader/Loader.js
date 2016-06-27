@@ -21,23 +21,19 @@ class Loader {
                     if (request.status === 200) {
                         resolve(request.responseText);
                     } else {
-                        console.log("response status not 200");
-                        reject(new Error(request.responseText));
+                        reject("response status not 200");
                     }
                 } else {
-                    console.log("ready state not 4");
-                    reject(new Error(request.responseText));
+                    reject("ready state not 4");
                 }
             };
 
             request.onerror = e => {
-                console.log("onerror");
-                reject(new Error(request.responseText));
+                reject("onerror");
             };
 
             request.ontimeout = () => {
-                console.log("ontimeout");
-                reject(new Error('timeout'));
+                reject("ontimeout");
             };
 
             request.send();

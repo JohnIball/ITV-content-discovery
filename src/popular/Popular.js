@@ -15,9 +15,12 @@ class Popular extends Component {
         let loader = new Loader();
         loader.loadPopular().then(response => {
             const jsonResponse = JSON.parse(response);
+            this.setState({
+                popularResponse: JSON.parse(response)
+            });
             console.log("XXXX success in caller: " + JSON.stringify(jsonResponse));
         }).catch(e => {
-            console.error("Error: " + e);
+            console.log("Error: " + e);
         });
     }
 
