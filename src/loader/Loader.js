@@ -1,40 +1,47 @@
 // Utility class to load data using the API
 
 class Loader {
+
     loadPopular() {
-        let request = new XMLHttpRequest();
+        const popularURL = "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?grouping=popular&size=15&broadcaster=ITV";
+        return this.load(popularURL);
+    }
 
-        const url = "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?grouping=popular&size=15&broadcaster=ITV";
-        request.open("GET", url, true);
+    load(url) {
+        // TODO maybe use the fetch API. Either way, hide the URL and header details etc. in this class
+        return new Promise((resolve, reject) => {
 
-        request.setRequestHeader("Accept", "application/vnd.itv.ctv.production.v1+hal+json");
+            let request = new XMLHttpRequest();
+            request.open("GET", url, true);
+            request.setRequestHeader("Accept", "application/vnd.itv.ctv.production.v1+hal+json");
+            request.timeout = 5000;
 
-        request.timeout = 5000;
-
-        request.onload = (e) => {
-            if (request.readyState === 4) {
-                if (request.status === 200) {
-                    const response = JSON.parse(request.responseText);
-                    console.log("XXXX success: " + JSON.stringify(response));
+            request.onload = e => {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        resolve(request.responseText);
+                    } else {
+                        console.log("response status not 200");
+                        reject(new Error(request.responseText));
+                    }
                 } else {
-                    console.log("XXXX error: " + request.responseText);
+                    console.log("ready state not 4");
+                    reject(new Error(request.responseText));
                 }
-            } else {
-                console.log("XXXX error: " + request.responseText);
-            }
+            };
 
-        };
+            request.onerror = e => {
+                console.log("onerror");
+                reject(new Error(request.responseText));
+            };
 
-        request.onerror = (e) => {
-            console.log("XXXX error");
-        };
+            request.ontimeout = () => {
+                console.log("ontimeout");
+                reject(new Error('timeout'));
+            };
 
-        request.ontimeout = () => {
-            console.log("XXXX error");
-//            error('{"status_code":408,"status_message":"Request timed out"}');
-        };
-
-        request.send(null);
+            request.send();
+        });
     }
 }
 
