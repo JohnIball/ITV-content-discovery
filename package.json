@@ -1,0 +1,43 @@
+{
+  "name": "ITV-content-discovery",
+  "version": "1.0.0",
+  "description": "Example of content discovery using ITV API",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-root-import": "^3.2.2",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.21.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "json-loader": "^0.5.4",
+    "karma": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-webpack": "^1.7.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress",
+    "start": "webpack-dev-server --progress",
+    "test": "NODE_ENV=production karma start"
+  },
+  "author": "John Iball",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnIball/ITV-content-discovery"
+  }
+}
