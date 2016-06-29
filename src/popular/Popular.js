@@ -26,10 +26,10 @@ class Popular extends Component {
         let loader = new Loader();
         loader.loadPopular().then(response => {
             this.setState({
-                popularResponse: JSON.parse(response)
+                popularResponse: response
             });
         }).catch(e => {
-            console.log("Error: " + e);
+            console.log("Error in Popular: " + e);
         });
     }
 
