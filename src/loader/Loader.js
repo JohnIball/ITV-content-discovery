@@ -1,4 +1,5 @@
 // Utility class to load data using the API
+// TODO maybe use the fetch API. Either way, hide the URL and header details etc. in this class
 
 class Loader {
 
@@ -8,7 +9,6 @@ class Loader {
     }
 
     load(url) {
-        // TODO maybe use the fetch API. Either way, hide the URL and header details etc. in this class
         return new Promise((resolve, reject) => {
 
             let request = new XMLHttpRequest();
