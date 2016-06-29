@@ -13,7 +13,7 @@ class PopularProductionList extends Component {
             if (productionItemData.programmeTitle.toLowerCase().indexOf(this.props.filterText.toLowerCase()) === -1) {
                 return;
             }
-            return (<ProductionDisplay productionData = {productionItemData}  key = {productionItemData.productionId} />)
+            return (<ProductionDisplay productionData = {productionItemData} key = {productionItemData.productionId} />)
         });
 
         return (
