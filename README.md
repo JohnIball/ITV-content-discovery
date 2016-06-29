@@ -1,5 +1,5 @@
 # ITV content discovery using React
-Example using the ITV API to discover conntent
+Example using the ITV API to discover content. Shows a list of popular programmes with a box to filter by title.
 
 Uses React, ES6 (Babel), Webpack, and Jasmine 
 
