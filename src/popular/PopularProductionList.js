@@ -10,6 +10,9 @@ class PopularProductionList extends Component {
     render() {
         // Map each item of data to a display item for a production
         const items = this.props.popularProductions.map((productionItemData) => {
+            if (productionItemData.programmeTitle.toLowerCase().indexOf(this.props.filterText.toLowerCase()) === -1) {
+                return;
+            }
             return (<ProductionDisplay productionData = {productionItemData}  key = {productionItemData.productionId} />)
         });
 

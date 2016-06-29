@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PopularProductionList from './PopularProductionList';
+import Filter from './Filter';
 import Loader from '~/src/loader/Loader.js';
 
 // Top level component to show popular programmes
@@ -8,11 +9,13 @@ class Popular extends Component {
     constructor() {
         super();
 
+        this.loadData = this.loadData.bind(this);
+        this.handleUserInput = this.handleUserInput.bind(this);
+
         this.state = {
+            filterText: "",
             popularResponse: {}
         };
-
-        this.loadData = this.loadData.bind(this);
     }
 
     componentDidMount() {
@@ -30,6 +33,13 @@ class Popular extends Component {
         });
     }
 
+    // Get the user input from the filter box
+    handleUserInput(filterText) {
+        this.setState({
+            filterText: filterText
+        });
+    }
+
     render() {
         // Check validity of data. Not sure if this is the right place to do this.
         // Also can we strip _embedded out in the loader in all cases?
@@ -39,7 +49,14 @@ class Popular extends Component {
 
         return (
             <div>
-                <PopularProductionList popularProductions = {this.state.popularResponse._embedded.productions} />
+                <Filter
+                    onUserInputCallback = {this.handleUserInput}  // Send a callback in the props
+                    filterText = {this.state.filterText}
+                />
+                <PopularProductionList
+                    popularProductions = {this.state.popularResponse._embedded.productions}
+                    filterText = {this.state.filterText}
+                />
             </div>
         );
     }
