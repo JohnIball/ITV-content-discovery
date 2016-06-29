@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import PopularProductionList from './PopularProductionList';
 import Loader from '~/src/loader/Loader.js';
 
@@ -32,14 +32,14 @@ class Popular extends Component {
 
     render() {
         // Check validity of data. Not sure if this is the right place to do this.
-        // Can we strip _embedded out in the loader in all cases?
-        if (!this.state.popularResponse._embedded) {
+        // Also can we strip _embedded out in the loader in all cases?
+        if (!this.state.popularResponse._embedded || !this.state.popularResponse._embedded.productions) {
             return null;
         }
 
         return (
             <div>
-                <PopularProductionList popularProductions = {this.state.popularResponse._embedded} />
+                <PopularProductionList popularProductions = {this.state.popularResponse._embedded.productions} />
             </div>
         );
     }

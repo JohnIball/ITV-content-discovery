@@ -1,18 +1,22 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import ProductionDisplay from './ProductionDisplay';
 
 // Show a list of popular productions
 class PopularProductionList extends Component {
     constructor() {
         super();
-
     }
 
     render() {
-	    console.log("XXXX popularProductions = " + JSON.stringify(this.props.popularProductions));
+        // Map each item of data to a display item for a production
+        const items = this.props.popularProductions.map((productionItemData) => {
+            return (<ProductionDisplay productionData = {productionItemData}  key = {productionItemData.productionId} />)
+        });
+
         return (
-            <div>
-                Popular
-            </div>
+            <table>
+                <tbody><tr>{items}</tr></tbody>
+            </table>
         );
     }
 }
