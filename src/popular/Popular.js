@@ -14,7 +14,7 @@ class Popular extends Component {
 
         this.state = {
             filterText: "",
-            popularResponse: {}
+            popularResponse: []
         };
     }
 
@@ -41,9 +41,8 @@ class Popular extends Component {
     }
 
     render() {
-        // Check validity of data. Not sure if this is the right place to do this.
-        // Also can we strip _embedded out in the loader in all cases?
-        if (!this.state.popularResponse._embedded || !this.state.popularResponse._embedded.productions) {
+        if (!this.state.popularResponse || this.state.popularResponse.length === 0) {
+            // Make sure we don't even get the filter box if we have no productions to show
             return null;
         }
 
@@ -54,7 +53,7 @@ class Popular extends Component {
                     filterText = {this.state.filterText}
                 />
                 <PopularProductionList
-                    popularProductions = {this.state.popularResponse._embedded.productions}
+                    popularProductions = {this.state.popularResponse}
                     filterText = {this.state.filterText}
                 />
             </div>
