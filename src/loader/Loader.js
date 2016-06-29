@@ -9,7 +9,7 @@ class Loader {
     // Return a list of popular productions as an array
     loadPopular() {
         return fetch(popularURL, options).then(response => {
-            return (response.json());
+            return response.json();
         }).then(jsonResponse => {
             // Check for valid data
             if (!jsonResponse._embedded || !jsonResponse._embedded.productions) {
