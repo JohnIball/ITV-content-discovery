@@ -15,7 +15,7 @@ class PopularProductionList extends Component {
 
         return (
             <table>
-                <tbody><tr>{items}</tr></tbody>
+                <tbody>{items}</tbody>
             </table>
         );
     }

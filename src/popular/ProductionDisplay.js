@@ -7,9 +7,14 @@ class ProductionDisplay extends Component {
 
     render() {
         return (
-            <td>
-                {this.props.productionData.programmeTitle}
-            </td>
+            <tr>
+                <td>
+                    <img src = {this.props.productionData._links.image.href} width="256" />
+                </td>
+                <td>
+                    {this.props.productionData.programmeTitle}
+                </td>
+            </tr>
         );
     }
 }
