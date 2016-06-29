@@ -1,0 +1,763 @@
+{
+  "productions": [
+    {
+      "productionId": "2/3697/0068#001",
+      "channel": "ITV2",
+      "episodeId": "2/3697/0068",
+      "programmeId": "2/3697",
+      "programmeTitle": "Love Island",
+      "categories": [
+        "Entertainment"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 28 Jun 9pm",
+        "iso8601Format": "2016-06-28T20:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 2 - Episode 30",
+      "synopsis": "With 50,000 pounds up for grabs, which pairings are likely to go the distance?",
+      "guidance": "With scenes of a sexual nature, adult content and strong language throughout.",
+      "availabilityEnd": {
+        "displayFormat": "29 days left",
+        "iso8601Format": "2016-07-28T22:59Z"
+      },
+      "moreEpisodesLabel": "29 more episodes",
+      "numberOfEpisodes": 30,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F3697%2F0068%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_3697_0068.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_3697&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_3697_0068.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/0694/8930#001",
+      "channel": "ITV",
+      "episodeId": "1/0694/8930",
+      "programmeId": "1/0694",
+      "programmeTitle": "Coronation Street",
+      "categories": [
+        "Drama & Soaps"
+      ],
+      "duration": "30 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Friday 24 Jun 8.30pm",
+        "iso8601Format": "2016-06-24T19:30Z"
+      },
+      "synopsis": "Jason saves David from a heartbreaking choice. Nick catches Leanne red-handed.",
+      "availabilityEnd": {
+        "displayFormat": "25 days left",
+        "iso8601Format": "2016-07-24T22:59Z"
+      },
+      "moreEpisodesLabel": "15 more episodes",
+      "numberOfEpisodes": 16,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F0694%2F8930%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_0694_8930.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_0694&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_0694_8930.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/8694/7538/39#001",
+      "channel": "ITV",
+      "episodeId": "1/8694/7538",
+      "programmeId": "Y/0524",
+      "programmeTitle": "Emmerdale",
+      "categories": [
+        "Drama & Soaps"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 28 Jun 7pm",
+        "iso8601Format": "2016-06-28T18:00Z"
+      },
+      "synopsis": "Rakesh puts his plan into action. Lawrence returns home.",
+      "availabilityEnd": {
+        "displayFormat": "29 days left",
+        "iso8601Format": "2016-07-28T22:59Z"
+      },
+      "moreEpisodesLabel": "22 more episodes",
+      "numberOfEpisodes": 23,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F8694%2F7538%2F39%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_8694_7538_39.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=Y_0524&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_8694_7538_39.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/4259/0272#001",
+      "channel": "ITV2",
+      "episodeId": "2/4259/0272",
+      "programmeId": "2/4259",
+      "programmeTitle": "Family Guy",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "duration": "30 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Monday 13 Jun 10pm",
+        "iso8601Format": "2016-06-13T21:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 14 - Episode 15",
+      "episodeTitle": "A Lot Going On Upstairs",
+      "synopsis": "US animated comedy series. Peter infuriates Lois by turning the attic into a man cave.",
+      "guidance": "Contains adult humour.",
+      "availabilityEnd": {
+        "displayFormat": "12 days left",
+        "iso8601Format": "2016-07-11T22:59Z"
+      },
+      "moreEpisodesLabel": "15 more episodes",
+      "numberOfEpisodes": 16,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F4259%2F0272%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_4259_0272.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_4259&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_4259_0272.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/5163/2337#001",
+      "channel": "ITV",
+      "episodeId": "1/5163/2337",
+      "programmeId": "1/5163",
+      "programmeTitle": "The Jeremy Kyle Show",
+      "categories": [
+        "Factual"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 28 Jun 9.25am",
+        "iso8601Format": "2016-06-28T08:25Z"
+      },
+      "synopsis": "Jeremy Kyle deals with more dilemmas, fiery confrontations and topical issues.",
+      "availabilityEnd": {
+        "displayFormat": "29 days left",
+        "iso8601Format": "2016-07-28T22:59Z"
+      },
+      "moreEpisodesLabel": "19 more episodes",
+      "numberOfEpisodes": 20,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F5163%2F2337%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_5163_2337.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_5163&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_5163_2337.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/4263/0126#001",
+      "channel": "ITV2",
+      "episodeId": "2/4263/0126",
+      "programmeId": "2/4263",
+      "programmeTitle": "American Dad!",
+      "categories": [
+        "Comedy",
+        "Entertainment"
+      ],
+      "duration": "30 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Wednesday 29 Jun 12am",
+        "iso8601Format": "2016-06-28T23:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 8 - Episode 11",
+      "episodeTitle": "Old Stan In The Mountain",
+      "synopsis": "A hex turns Stan into an old man. Roger and Francine take a road trip.",
+      "guidance": "This programme contains adult humour.",
+      "availabilityEnd": {
+        "displayFormat": "13 days left",
+        "iso8601Format": "2016-07-12T22:59Z"
+      },
+      "moreEpisodesLabel": "11 more episodes",
+      "numberOfEpisodes": 12,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F4263%2F0126%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_4263_0126.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_4263&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_4263_0126.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/3467/0032#001",
+      "channel": "ITVBe",
+      "episodeId": "2/3467/0032",
+      "programmeId": "2/3467",
+      "programmeTitle": "The Real Housewives of Melbourne",
+      "categories": [
+        "Entertainment"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 28 Jun 5pm",
+        "iso8601Format": "2016-06-28T16:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 3 - Episode 8",
+      "synopsis": "Reality series. The housewives arrive in lavish, resplendent Dubai.",
+      "availabilityEnd": {
+        "displayFormat": "13 days left",
+        "iso8601Format": "2016-07-12T22:59Z"
+      },
+      "moreEpisodesLabel": "3 more episodes",
+      "numberOfEpisodes": 4,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F3467%2F0032%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_3467_0032.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_3467&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_3467_0032.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/4337/0007#001",
+      "channel": "ITV",
+      "episodeId": "2/4337/0007",
+      "programmeId": "2/4337",
+      "programmeTitle": "Judge Rinder's Crime Stories",
+      "categories": [
+        "Factual"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 28 Jun 2pm",
+        "iso8601Format": "2016-06-28T13:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 1 - Episode 7",
+      "synopsis": "Featuring a security guard confronted by an armed man and a young hit-and-run victim.",
+      "guidance": "Contains accounts of traumatic events and the subsequent consequences",
+      "availabilityEnd": {
+        "displayFormat": "29 days left",
+        "iso8601Format": "2016-07-28T22:59Z"
+      },
+      "moreEpisodesLabel": "5 more episodes",
+      "numberOfEpisodes": 6,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F4337%2F0007%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_4337_0007.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_4337&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_4337_0007.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/4493/0001#001",
+      "channel": "ITV",
+      "episodeId": "2/4493/0001",
+      "programmeId": "2/4493",
+      "programmeTitle": "Oscar Pistorius: The Interview",
+      "categories": [
+        "Factual"
+      ],
+      "duration": "90 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Friday 24 Jun 9pm",
+        "iso8601Format": "2016-06-24T20:00Z"
+      },
+      "synopsis": "Mark Williams-Thomas interviews Oscar Pistorius as he prepares to return to jail.",
+      "guidance": "Contains strong language and images of the crime scene that some viewers may find distressing.",
+      "availabilityEnd": {
+        "displayFormat": "25 days left",
+        "iso8601Format": "2016-07-24T22:59Z"
+      },
+      "numberOfEpisodes": 1,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F4493%2F0001%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_4493_0001.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_4493&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_4493_0001.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/8783/0163#001",
+      "channel": "ITVBe",
+      "episodeId": "1/8783/0163",
+      "programmeId": "1/8783",
+      "programmeTitle": "Dinner Date",
+      "categories": [
+        "Entertainment"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Wednesday 22 Jun 8pm",
+        "iso8601Format": "2016-06-22T19:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 6 - Episode 7",
+      "synopsis": "Dating series. Sam from Birmingham dines with three lucky ladies.",
+      "availabilityEnd": {
+        "displayFormat": "23 days left",
+        "iso8601Format": "2016-07-22T22:59Z"
+      },
+      "moreEpisodesLabel": "33 more episodes",
+      "numberOfEpisodes": 34,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F8783%2F0163%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_8783_0163.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_8783&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_8783_0163.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "2/2978/0009#001",
+      "channel": "ITV2",
+      "episodeId": "2/2978/0009",
+      "programmeId": "2/2978",
+      "programmeTitle": "Educating Joey Essex",
+      "categories": [
+        "Entertainment"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Sunday 19 Jun 8pm",
+        "iso8601Format": "2016-06-19T19:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 2 - Episode 2",
+      "synopsis": "The hilarious occasional series returns. Joey learns about the upcoming EU referendum.",
+      "availabilityEnd": {
+        "displayFormat": "20 days left",
+        "iso8601Format": "2016-07-19T22:59Z"
+      },
+      "moreEpisodesLabel": "1 more episode",
+      "numberOfEpisodes": 2,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=2%2F2978%2F0009%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv2/itv2-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/2_2978_0009.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=2_2978&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=2_2978_0009.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/6248/0075#001",
+      "channel": "ITV",
+      "episodeId": "1/6248/0075",
+      "programmeId": "1/6248",
+      "programmeTitle": "UEFA Euro 2016",
+      "categories": [
+        "Sport"
+      ],
+      "duration": "150 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Monday 27 Jun 7pm",
+        "iso8601Format": "2016-06-27T18:00Z"
+      },
+      "catalogueHierarchyDescription": "Episode 22",
+      "episodeTitle": "Round of 16: England v Iceland",
+      "synopsis": "England take on Iceland with a place in the quarter-finals of Euro 2016 at stake.",
+      "availabilityEnd": {
+        "displayFormat": "28 days left",
+        "iso8601Format": "2016-07-27T22:59Z"
+      },
+      "moreEpisodesLabel": "21 more episodes",
+      "numberOfEpisodes": 22,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F6248%2F0075%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-colour-pos.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv/itv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_6248_0075.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_6248&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_6248_0075.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/9851/0002#001",
+      "channel": "ITV3",
+      "episodeId": "1/9851/0002",
+      "programmeId": "1/9851",
+      "programmeTitle": "A Mother's Son",
+      "categories": [
+        "Drama & Soaps"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Wednesday 15 Jun 10pm",
+        "iso8601Format": "2016-06-15T21:00Z"
+      },
+      "catalogueHierarchyDescription": "Episode 2",
+      "synopsis": "David has found out that Jamie has been hanging out with a violent dropout, Sean.",
+      "guidance": "Contains strong language.",
+      "availabilityEnd": {
+        "displayFormat": "16 days left",
+        "iso8601Format": "2016-07-15T22:59Z"
+      },
+      "moreEpisodesLabel": "1 more episode",
+      "numberOfEpisodes": 2,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F9851%2F0002%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv3/itv3-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv3/itv3-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itv3/itv3-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_9851_0002.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_9851&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_9851_0002.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/9319/0040#001",
+      "channel": "CITV",
+      "episodeId": "1/9319/0040",
+      "programmeId": "31252",
+      "programmeTitle": "Horrid Henry",
+      "categories": [
+        "Children"
+      ],
+      "duration": "15 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Tuesday 10 May 12.30pm",
+        "iso8601Format": "2016-05-10T11:30Z"
+      },
+      "catalogueHierarchyDescription": "Series 3 - Episode 40",
+      "synopsis": "Horrid Henry and Perfect Peter become entertainers to gatecrash Moody Margaret's party.",
+      "availabilityEnd": {
+        "displayFormat": "27 days left",
+        "iso8601Format": "2016-07-26T22:59Z"
+      },
+      "moreEpisodesLabel": "31 more episodes",
+      "numberOfEpisodes": 32,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F9319%2F0040%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/citv/citv-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/citv/citv-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/citv/citv-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_9319_0040.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=31252&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_9319_0040.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    },
+    {
+      "productionId": "1/9824/0140#001",
+      "channel": "ITVBe",
+      "episodeId": "1/9824/0140",
+      "programmeId": "1/9824",
+      "programmeTitle": "The Real Housewives of Orange County",
+      "categories": [
+        "Entertainment",
+        "Factual"
+      ],
+      "duration": "60 mins",
+      "broadcastDateTime": {
+        "displayFormat": "Monday 27 Jun 9pm",
+        "iso8601Format": "2016-06-27T20:00Z"
+      },
+      "catalogueHierarchyDescription": "Series 9 - Episode 16",
+      "episodeTitle": "Bali Highs & Lows",
+      "synopsis": "US reality series. The ladies take a trip to Bali, where Shannon gets some shocking news.",
+      "guidance": "Contains strong language.",
+      "availabilityEnd": {
+        "displayFormat": "12 days left",
+        "iso8601Format": "2016-07-11T22:59Z"
+      },
+      "moreEpisodesLabel": "1 more episode",
+      "numberOfEpisodes": 2,
+      "_links": {
+        "image": {
+          "href": "http://mercury.itv.com/samsung/production/image?q={quality}&format={image_format}&w={width}&h={height}&productionId=1%2F9824%2F0140%23001",
+          "templated": true
+        },
+        "channelImagePrimary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-colour.svg"
+        },
+        "channelImageSecondary": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "channelImageDog": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/itvstatic/assets/images/brands/itvbe/itvbe-mono-neg.svg"
+        },
+        "playlist": {
+          "href": "https://old-origin-api.itv.com/playlist/itvonline/samsung/1_9824_0140.001"
+        },
+        "allEpisodes": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/productions?programmeId=1_9824&broadcaster=itv"
+        },
+        "onwardJourney": {
+          "href": "http://fetd.prod.cps.awseuwest1.itvcloud.zone/platform/itvonline/samsung/onwardjourney?productionId=1_9824_0140.001&broadcaster=itv"
+        }
+      },
+      "_embedded": {
+        "onwardJourney": {}
+      }
+    }
+  ]
+}
